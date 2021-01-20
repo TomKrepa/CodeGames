@@ -17,8 +17,7 @@ def main():
             if tableau[i] > tableau[i + 1]:
                 switch = True
                 # On echange les deux elements
-                tableau[i], tableau[i + 1] = \
-                tableau[i + 1],tableau[i]
+                tableau[i], tableau[i + 1] = tableau[i + 1],tableau[i]
 
     print(tableau)
 
